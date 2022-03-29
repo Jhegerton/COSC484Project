@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/keys.png';
 import './App.css';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Living Spaces</h1>
         <p>
           This is the empty shell that we will create our react.js app.
         </p>
