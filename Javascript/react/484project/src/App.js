@@ -1,5 +1,11 @@
 import logo from './images/keys.png';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -10,16 +16,24 @@ function App() {
         <p>
           This is the empty shell that we will create our react.js app.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className={"route"}>
+        <Router>
+          <Routes>
+            <Route exact path={"/"} element={<Home />}>
+              <Home/>
+            </Route>
+            <Route exact path={"/login"} element={<Login />}>
+              <Login/>
+            </Route>
+            <Route exact path={"/account"} element={<Account />}>
+              <Account/>
+            </Route>
+            </Routes>
+        </Router>
+        </div>
       </header>
     </div>
+
   );
 }
 
