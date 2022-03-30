@@ -15,13 +15,10 @@ function App() {
         <Router>
           <Routes>
             <Route path={"/"} element={<Home />}>
-              {/*<Home/>*/}
             </Route>
             <Route path={"/login"} element={<Login />}>
-              {/*<Login/>*/}
             </Route>
             <Route path={"/account"} element={<Account />}>
-              {/*<Account/>*/}
             </Route>
             </Routes>
         </Router>
