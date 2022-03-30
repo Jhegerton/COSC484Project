@@ -1,37 +1,31 @@
-import logo from './images/keys.png';
-import './App.css';
 import {
   BrowserRouter as Router,
   Route,
   Routes,
 } from 'react-router-dom';
+import Account from './Account';
+import Login from './Login';
+import Home from "./Home";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Living Spaces</h1>
-        <p>
-          This is the empty shell that we will create our react.js app.
-        </p>
-        <div className={"route"}>
+    <div className={'router'}>
+
         <Router>
           <Routes>
-            <Route exact path={"/"} element={<Home />}>
-              <Home/>
+            <Route path={"/"} element={<Home />}>
+              {/*<Home/>*/}
             </Route>
-            <Route exact path={"/login"} element={<Login />}>
-              <Login/>
+            <Route path={"/login"} element={<Login />}>
+              {/*<Login/>*/}
             </Route>
-            <Route exact path={"/account"} element={<Account />}>
-              <Account/>
+            <Route path={"/account"} element={<Account />}>
+              {/*<Account/>*/}
             </Route>
             </Routes>
         </Router>
-        </div>
-      </header>
+
     </div>
 
   );
