@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from "./images/keys.png";
 import './Site.css';
+import {Helmet} from "react-helmet";
 
 export default function Account(){
     return(
     <div className="Account">
-            <header className={"head"}>
-                <title>Living Spaces || Account </title>
+            <Helmet>
+                <title>Account</title>
                 <meta
                     name={"Social Media site for college students to find roommates"}
                 />
@@ -14,7 +15,7 @@ export default function Account(){
                 <link rel="icon" type="image/png" sizes="96x96" href="./images/icons/favicon-96x96.png"/>
                 <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png"/>
 
-            </header>
+            </Helmet>
             <body className="Body">
                 <img src={logo} className="Site-logo" alt="logo" />
                 <h1>Living Spaces</h1>
