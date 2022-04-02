@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-http": "sudo PORT=80 react-scripts start",
     "start-https": "sudo PORT=443 HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
