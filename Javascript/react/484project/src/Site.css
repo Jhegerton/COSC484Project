@@ -20,7 +20,7 @@
 /*}*/
 
 .Body {
-  background-color: #FFA500;
+  background-color: mediumpurple;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@
   color: white;
 }
 .Footer {
-  background-color: #FFA500;
+  background-color: mediumpurple;
   min-height: 20vh;
 }
 .Links {
