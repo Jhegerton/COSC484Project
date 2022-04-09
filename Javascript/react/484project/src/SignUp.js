@@ -5,9 +5,9 @@ import Helmet from 'react-helmet';
 
 export default function SignUp(){
     return(
-        <div className="Login">
+        <div className="SignUp">
             <Helmet>
-                <title>Login</title>
+                <title>Sign Up</title>
                 <meta
                     name={"Social Media site for college students to find roommates"}
                 />
