@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "./images/keys.png";
+import logo from "./images/QMark.png";
 import './Site.css';
 import {Helmet} from "react-helmet";
 
@@ -17,19 +17,12 @@ export default function NotFound(){
             </Helmet>
             <body className="Body">
             <img src={logo} className="Site-logo" alt="logo" />
-            <h1>Living Spaces</h1>
-            <h3>Error 404</h3>
-            <p>
-                Page not found
-            </p>
+            <h1>Error 404</h1>
+            <h3>Page not found</h3>
             </body>
             <footer className={"Footer"}>
-                <div className={'Links'}>
-                    <ul>
-                        <li>
-                            <a href={'./'}>Home</a>
-                        </li>
-                    </ul>
+                <div className={'Back'}>
+                    <a href={'./'}>Home</a>
                 </div>
             </footer>
         </div>
