@@ -22,13 +22,11 @@ export default function Login(){
                 <h1>Living Spaces</h1>
                 <h3>Login Page</h3>
                 <form id={'login'} method={'POST'} action={'http://localhost:3100/login'}>
-                    <fieldset>
                         <label for={'username'}>Username</label><br/>
                         <input type={'text'} id={'username'} name ={'username'}/><br/>
                         <label for={'password'}>Password</label><br/>
                         <input type={'password'} id={'password'} name ={'password'}/><br/>
                         <input type={'submit'}/>
-                    </fieldset>
                 </form>
             </body>
             <footer className={"Footer"}>
