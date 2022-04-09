@@ -6,6 +6,7 @@ import {
 import Account from './Account';
 import Login from './Login';
 import Home from "./Home";
+import SignUp from "./SignUp";
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
             <Route path={"/login"} element={<Login />}>
             </Route>
             <Route path={"/account"} element={<Account />}>
+            </Route>
+            <Route path={'/signup'} element={<SignUp />}>
             </Route>
             </Routes>
         </Router>
