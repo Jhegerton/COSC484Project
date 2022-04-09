@@ -25,7 +25,7 @@ function App() {
             </Route>
             <Route path={'/signup/*'} element={<SignUp />}>
             </Route>
-            <Route path ={'./mongo/*'} element={<Mongo />}>
+            <Route path ={'/mongo/*'} element={<Mongo />}>
             </Route>
             <Route path={'*'} element={<NotFound />}>
             </Route>

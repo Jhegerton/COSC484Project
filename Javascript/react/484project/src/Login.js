@@ -2,7 +2,6 @@ import React from 'react';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from 'react-helmet';
-import LoginToJSON from './Forms'
 
 export default function Login(){
     return(
@@ -22,13 +21,13 @@ export default function Login(){
                 <img src={logo} className="Site-logo" alt="logo" />
                 <h1>Living Spaces</h1>
                 <h3>Login Page</h3>
-                <form method={'post'} action={'./mongo'} id={'login'}>
+                <form id={'login'} method={'POST'} action={'http://localhost:3100/login'}>
                     <fieldset>
                         <label for={'username'}>Username</label><br/>
                         <input type={'text'} id={'username'} name ={'username'}/><br/>
                         <label for={'password'}>Password</label><br/>
                         <input type={'password'} id={'password'} name ={'password'}/><br/>
-                        <input type={'submit'} onSubmit={LoginToJSON}/>
+                        <input type={'submit'}/>
                     </fieldset>
                 </form>
             </body>

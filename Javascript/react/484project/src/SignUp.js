@@ -24,7 +24,7 @@ export default function SignUp(){
             <p>
                 This is the empty shell that we will create our react.js app.
             </p>
-            <a href={'./Login.js'}>Back</a>
+            <a href={'./server.js'}>Back</a>
             </body>
             <footer className={"Footer"}>
                 <div className={'Links'}>

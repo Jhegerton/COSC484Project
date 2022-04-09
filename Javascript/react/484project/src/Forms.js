@@ -8,7 +8,7 @@ function LoginToJSON(event){
         'password' : password
     }
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "./mongo", true);
+    xhr.open("POST", "http://localhost:3100/login", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send(fJson.stringify);
 }
