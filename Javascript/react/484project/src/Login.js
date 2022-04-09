@@ -2,6 +2,7 @@ import React from 'react';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from 'react-helmet';
+import LoginToJSON from './Forms'
 
 export default function Login(){
     return(
@@ -27,7 +28,7 @@ export default function Login(){
                         <input type={'text'} id={'username'} name ={'username'}/><br/>
                         <label for={'password'}>Password</label><br/>
                         <input type={'password'} id={'password'} name ={'password'}/><br/>
-                        <input type={'submit'}/>
+                        <input type={'submit'} onSubmit={LoginToJSON}/>
                     </fieldset>
                 </form>
             </body>

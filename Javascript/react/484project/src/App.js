@@ -8,6 +8,7 @@ import Login from './Login';
 import Home from "./Home";
 import SignUp from "./SignUp";
 import NotFound from "./NotFound";
+import Mongo from "./Mongo";
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
             <Route path={"/account/*"} element={<Account />}>
             </Route>
             <Route path={'/signup/*'} element={<SignUp />}>
+            </Route>
+            <Route path ={'./mongo/*'} element={<Mongo />}>
             </Route>
             <Route path={'*'} element={<NotFound />}>
             </Route>
