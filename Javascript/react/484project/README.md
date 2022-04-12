@@ -14,6 +14,28 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm run start-http`
+
+Runs th app in the development mode over the http port.\
+Note that to run this command you must grant admin privileges.\
+Open [http://localhost](http://localhost) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm run start-https`
+
+Runs th app in the development mode over the https port.\
+Note that to run this command you must grant admin privileges.\
+Open [https://localhost](https://localhost) to view it in your browser.\
+
+``
+Note! ---> This feature is still in devolopment
+``
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
