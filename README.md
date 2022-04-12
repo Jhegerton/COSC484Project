@@ -28,3 +28,5 @@ with `Express.js` `APIs` and servers.
 ##Backend
 The project backend will be run on `Node.js`, `v17.8`. `NPM` will be used to install any necessary packages
 and interface with all other aspects of the program, both `front-end` and `back-end`.
+##Testing
+The project will be tested using `Jest` unit testing and `Postman` debugging.
