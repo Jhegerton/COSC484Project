@@ -28,14 +28,14 @@ interactions will not be accessible to front end app users.
 ## Server
 
 The project will use `Express.js v8.5.5`  to create servers and `REST API` to work with our front end. 
-`Express.js` will run alongside front-end `React.js v.8.5.5` servers.
+`Express.js` will run alongside front-end `React.js v8.5.5` servers.
 
 ## Front End
 
 The project will implement its front end using `React.js`, `JSX` and `CSS`. `React.js` app will run
 with `Express.js` `APIs` and servers.
 
-## Back end
+## Back End
 
 The project backend will be run on `Node.js`, `v17.8`. `NPM` will be used to install any necessary packages
 and interface with all other aspects of the program, both `front-end` and `back-end`.
