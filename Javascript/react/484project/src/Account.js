@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "./images/keys.png";
 import './Site.css';
-import {Helmet} from "react-helmet";
+import Helmet from "react-helmet";
 
 export default function Account(){
     return(
@@ -20,9 +20,15 @@ export default function Account(){
                 <img src={logo} className="Site-logo" alt="logo" />
                 <h1>Living Spaces</h1>
                 <h3>Account Page</h3>
-                <p>
-                    This is the empty shell that we will create our react.js app.
-                </p>
+                <form id={'account'} method={'POST'} action={'http://localhost:3100/login'}>
+                        <label for={'username'}>Username</label><br/>
+                        <input type={'text'} id={'username'} name ={'username'}/><br/>
+                        <label for={'password'}>Password</label><br/>
+                        <input type={'password'} id={'password'} name ={'password'}/><br/>
+                        <label for={'password2'}>Verify Password</label><br/>
+                        <input type={'password'} id={'password2'} name ={'password2'}/><br/>
+                        <input type={'submit'}/>
+                </form>
             </body>
             <footer className={"Footer"}>
                 <div className={'Links'}>
@@ -40,3 +46,4 @@ export default function Account(){
     );
 
 }
+
