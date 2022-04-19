@@ -20,8 +20,7 @@ export default function Account(){
                 <img src={logo} className="Site-logo" alt="logo" />
                 <h1>Living Spaces</h1>
                 <h3>Account Page</h3>
-                // Our docker api
-                <form id={'account'} method={'POST'} action={'http://54.147.43.167:3100/account'}>
+                <form id={'account'} method={'POST'} action={'http:localhost:3100/account'}>
                         <label for={'username'}>Username</label><br/>
                         <input type={'text'} id={'username'} name ={'username'} required/><br/>
                         <label for={'password'}>Password</label><br/>
