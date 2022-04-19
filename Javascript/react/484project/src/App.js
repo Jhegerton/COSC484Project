@@ -5,10 +5,10 @@ import {
 } from 'react-router-dom';
 import Account from './Account';
 import Login from './Login';
-import Home from "./Home";
 import SignUp from "./SignUp";
 import NotFound from "./NotFound";
 import Mongo from "./Mongo";
+import HomePage from "./HomePage";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 
         <Router>
           <Routes>
-            <Route path={"/"} element={<Home />}>
+            <Route path={"/"} element={<HomePage />}>
             </Route>
             <Route path={"/login/*"} element={<Login />}>
             </Route>

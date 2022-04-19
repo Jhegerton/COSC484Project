@@ -19,6 +19,21 @@
     animation: swing infinite 4s linear;
   }
 }
+.image2 {
+  height: 200px;
+  width: 200px;
+}
+.image3 {
+  height: 200px;
+  width: 200px;
+}
+.image4 {
+  height: 200px;
+  width: 200px;
+}
+table {
+  width: 100%;
+}
 
 .Body {
   background-color: mediumpurple;
@@ -29,6 +44,32 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+p{
+  font-size: calc(10px + 2vmin);
+}
+.column {
+  float: left;
+  float: bottom;
+  float: right;
+  width:  33.33%;
+}
+.left {
+  width: 60%;
+}
+
+.middle {
+  width: 60%;
+}
+
+.right {
+  width: 60%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .Footer {
   background-color: mediumpurple;
