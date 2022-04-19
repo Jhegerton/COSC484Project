@@ -1,0 +1,8 @@
+{
+  "name": "Post API",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.3",
+    "serve": "^13.0.2"
+  }
+}

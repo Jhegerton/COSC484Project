@@ -59,6 +59,12 @@ Note! ---> This feature is still in devolopment
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm run serve`
+
+Sends the project directory information to a web server using `serve.js`. Details about
+ports should show on console. This is very useful for presentations. Links 
+will be provided on the console as well.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
