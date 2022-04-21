@@ -20,13 +20,13 @@ export default function Account(){
                 <img src={logo} className="Site-logo" alt="logo" />
                 <h1>Living Spaces</h1>
                 <h3>Account Page</h3>
-                <form id={'account'} method={'POST'} action={'http://localhost:3100/login'}>
+                <form id={'account'} method={'POST'} action={'http:localhost:3100/account'}>
                         <label for={'username'}>Username</label><br/>
-                        <input type={'text'} id={'username'} name ={'username'}/><br/>
+                        <input type={'text'} id={'username'} name ={'username'} required/><br/>
                         <label for={'password'}>Password</label><br/>
-                        <input type={'password'} id={'password'} name ={'password'}/><br/>
+                        <input type={'password'} id={'password'} name ={'password'} required/><br/>
                         <label for={'password2'}>Verify Password</label><br/>
-                        <input type={'password'} id={'password2'} name ={'password2'}/><br/>
+                        <input type={'password'} id={'password2'} name ={'password2'} required/><br/>
                         <input type={'submit'}/>
                 </form>
             </body>
