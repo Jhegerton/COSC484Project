@@ -75,6 +75,7 @@ p{
 
   background-color: mediumpurple;
   min-height: 20vh;
+  color: white;
 }
 .Links {
   display: flex;

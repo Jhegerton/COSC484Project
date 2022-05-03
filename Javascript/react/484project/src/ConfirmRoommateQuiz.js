@@ -19,7 +19,7 @@ return(
         <li><a href="./confirmroomatequiz">Roommate Quiz</a></li>
         <li><a href="./apartments">Available Apartments</a></li>
     </ul>
-    <img src="keys.png" id=logo alt='keys_logo' class="image1"/>
+    <img src="keys.png" id='logo' alt='keys_logo' class="image1"/>
     <form name="contact" method="get" action = "RoommateQuiz.js">
         <h1> Living Spaces </h1>
 
