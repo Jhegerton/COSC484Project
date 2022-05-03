@@ -9,6 +9,9 @@ import SignUp from "./SignUp";
 import NotFound from "./NotFound";
 import Mongo from "./Mongo";
 import HomePage from "./HomePage";
+import RoommateQuiz from "./RoommateQuiz";
+import QuizCompleted from "./QuizCompleted";
+import ConfirmRoommateQuiz from "./ConfirmRoommateQuiz";
 
 
 function App() {
@@ -26,6 +29,12 @@ function App() {
             <Route path={'/signup/*'} element={<SignUp />}>
             </Route>
             <Route path ={'/mongo/*'} element={<Mongo />}>
+            </Route>
+            <Route path ={'/confirmroommatequiz/*'} element={<ConfirmRoommateQuiz />}>
+            </Route>
+            <Route path ={'/roommatequiz/*'} element = {<RoommateQuiz/>}>
+            </Route>
+            <Route path = {'/quizcompleted/*'} element = {<QuizCompleted/>}>
             </Route>
             <Route path={'*'} element={<NotFound />}>
             </Route>

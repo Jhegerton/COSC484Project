@@ -20,6 +20,7 @@ export default function HomePage(){
           <li> <a href= "./HomePage">Home</a></li>
           <li> <a href= "./about">About Us</a></li>
           <li> <a href= "./confirmroomatequiz">Roommate Quiz</a></li>
+         <li> <a href= "./apartments">Available Apartments</a></li>
      </ul>
      <img src = {logo} id = 'logo' alt = 'keys_logo' class = "Site-logo"/>
      <h1> Living Spaces </h1>
