@@ -15,8 +15,10 @@
 
 
 @media (prefers-reduced-motion: no-preference) {
-  .Site-logo {
+  .image1 {
     animation: swing infinite 4s linear;
+    height: 200px;
+    width: 200px;
   }
 }
 .image2 {
@@ -33,6 +35,9 @@
 }
 table {
   width: 100%;
+}
+h1 {
+  text-align: center;
 }
 
 .Body {
