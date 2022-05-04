@@ -32,9 +32,9 @@ function App() {
             </Route>
             <Route path ={'/confirmroommatequiz/*'} element={<ConfirmRoommateQuiz />}>
             </Route>
-            <Route path ={'/roommatequiz/*'} element = {<RoommateQuiz/>}>
+            <Route path ={'/roommatequiz/*'} element = {<RoommateQuiz />}>
             </Route>
-            <Route path = {'/quizcompleted/*'} element = {<QuizCompleted/>}>
+            <Route path = {'/quizcompleted/*'} element = {<QuizCompleted />}>
             </Route>
             <Route path={'*'} element={<NotFound />}>
             </Route>
