@@ -31,7 +31,7 @@ return(
         <p> Once the quiz starts you can not exit until the quiz is complete or your progress will be lost </p>
 
     <form id={'login'} method={'GET'} action={'http://localhost:3000/RoommateQuiz'}>
-        <input type={'submit'} name = 'Start'/>
+        <input type={'submit'} value = 'Start'/>
     </form>
 
     </body>

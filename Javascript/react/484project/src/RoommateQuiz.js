@@ -67,6 +67,8 @@ export default function RoommateQuiz(){
 <br/>
 <input type = "submit" />
 </form>
+<br/>
+<br/>
 </body>
 
 
