@@ -16,6 +16,8 @@
   height: 40vmin;
   pointer-events: none;
 }
+/*Source of logo*/
+/*https://cutewallpaper.org/24/key-clipart-png/view-page-24.html*/
 
 
 @media (prefers-reduced-motion: no-preference) {
@@ -59,8 +61,8 @@ p{
 }
 .column {
   float: left;
-  float: bottom;
-  float: right;
+  /*float: bottom;*/
+  /*float: right;*/
   width:  33.33%;
 }
 .left {
@@ -129,6 +131,14 @@ li a {
 .ApartmentsWebsite, #site{
   width: 100%;
   height: 90%;
+}
+.Apartments, #logo {
+  width: 75px;
+  height:75px;
+}
+.Apartments, .links {
+
+  height: 130px;
 }
 
 #site{

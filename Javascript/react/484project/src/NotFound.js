@@ -16,7 +16,7 @@ export default function NotFound(){
                 <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png"/>
             </Helmet>
             <body className="Body">
-            <img src={logo} className="Site-logo" alt="logo" />
+            <a href={'./'}><img src={logo} className="Site-logo" alt="logo" /></a>
             <h1>Error 404</h1>
             <h3>Page not found</h3>
             </body>

@@ -8,7 +8,6 @@ return(
 
     <div className ="ConfirmRoommateQuiz">
     <Helmet>
-        <meta charset="UTF-8"/>
         <title> ConfirmRoommateQuiz </title>
         <link rel="stylesheet" type="text/css" href="site.css"/>
     </Helmet>
@@ -23,7 +22,7 @@ return(
             <li> <a href= './apartments'>Available Apartments</a></li>
         </ul>
     </div>
-    <img src={logo} id='logo' alt='keys_logo' className ="image1"/>
+    <a href={'./'}><img src={logo} id='logo' alt='keys_logo' className ="image1"/></a>
 
         <h1> Living Spaces </h1>
 

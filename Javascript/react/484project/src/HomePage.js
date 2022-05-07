@@ -10,7 +10,6 @@ export default function HomePage(){
      return(
          <div className = "HomePage">
      <Helmet>
-          <meta charset = "UTF-8"/>
           <title> Living Spaces</title>
           <link rel = "stylesheet" type = "text/css" href="site.css"/>
      
@@ -25,7 +24,7 @@ export default function HomePage(){
         <li> <a href= './Apartments'>Available Apartments</a></li>
     </ul>
 </div>
-     <img src = {logo} id = 'logo' alt = 'keys_logo' className = "image1"/>
+<a href={'./'}><img src = {logo} id = 'logo' alt = 'keys_logo' className = "image1"/></a>
      <h1> Living Spaces </h1>
      <h3> Allowing Students to find good housing on and off campus </h3>
 
