@@ -2,6 +2,10 @@
   overflow-x: hidden;
   display: none;
 }
+a{
+  color: white;
+  text-decoration: underline;
+}
 .Home {
   text-align: center;
 }

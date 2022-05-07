@@ -6,6 +6,9 @@ import ty from "./images/the_york.jpeg";
 import './Site.css';
 import {Helmet} from "react-helmet";
 export default function HomePage(){
+    const univVillage =('https://www.americancampus.com/student-apartments/md/towson/university-village-towson?utm_source=&utm_medium=&utm_campaign=&utm_content=');
+    const millHall =('https://millenniumhall.com/');
+    const theYork =('https://theyorktowson.com/');
 
      return(
          <div className = "HomePage">
@@ -31,11 +34,11 @@ export default function HomePage(){
      <h3> You could live in one of these great apartments and many more! </h3>
      <table>
           <tr>
-               <th><img src = {uv} id = 'uv' alt = 'uv_logo' className = "image2"/>
-               <figcaption>University Village</figcaption></th>
-               <th><img src = {mh} id = 'mh' alt = 'mh_logo' className = "image3"/>
-                    <figcaption>Millennium Hall</figcaption></th>
-               <th><img src = {ty} id = 'ty' alt = 'ty_logo' className = "image4"/>
+               <th><a href={univVillage}><img src = {uv} id = 'uv' alt = 'uv_logo' className = "image2"/></a>
+                   <figcaption>University Village</figcaption></th>
+              <th><a href={millHall}><img src = {mh} id = 'mh' alt = 'mh_logo' className = "image3"/></a>
+                  <figcaption>Millennium Hall</figcaption></th>
+              <th><a href={theYork}><img src = {ty} id = 'ty' alt = 'ty_logo' className = "image4"/></a>
                     <figcaption>The York</figcaption></th>
           </tr>
      </table>
@@ -59,8 +62,8 @@ export default function HomePage(){
         </div>
         <div className ="column colright">
             <h5>Contact us </h5>
-           <p>Email: <a href="mailto:livingspaces.contact@gmail.com">livingspaces.contact@gmail.com</a></p>
-           <p> Phone: 123 - 456 - 7890 </p>
+           <p><a href="mailto:livingspaces.contact@gmail.com">Email Us</a></p>
+           <p><a href={'tel:+1234567890'}>Call Us</a></p>
         </div>
     </div>
 </form>
