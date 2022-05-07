@@ -61,7 +61,7 @@ export default function RoommateQuiz(){
 <input type = "radio" name = "Q9" required = "required"/> <label> Twice a Month </label><br/>
 <input type = "radio" name = "Q9" required = "required"/> <label> Every Weekend </label><br/>
 
-    <p> Are you Comfoartable Sharing </p>
+    <p> Are you Comfortable Sharing </p>
 <input type = "radio" name = "Q10" required = "required"/> <label> Yes </label><br/>
 <input type = "radio" name = "Q10" required = "required"/> <label> No </label><br/>
 <br/>

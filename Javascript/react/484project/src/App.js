@@ -12,12 +12,12 @@ import HomePage from "./HomePage";
 import RoommateQuiz from "./RoommateQuiz";
 import QuizCompleted from "./QuizCompleted";
 import ConfirmRoommateQuiz from "./ConfirmRoommateQuiz";
+import Apartments from "./Apartments";
 
 
 function App() {
   return (
     <div className={'router'}>
-
         <Router>
           <Routes>
             <Route path={"/"} element={<HomePage />}>
@@ -36,13 +36,13 @@ function App() {
             </Route>
             <Route path = {'/quizcompleted/*'} element = {<QuizCompleted />}>
             </Route>
-            <Route path={'*'} element={<NotFound />}>
+            <Route path ={'/apartments/*'} element={<Apartments />}>
             </Route>
-            </Routes>
+            <Route path ={'*'} element={<NotFound />}>
+            </Route>
+          </Routes>
         </Router>
-
     </div>
-
   );
 }
 

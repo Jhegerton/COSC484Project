@@ -1,3 +1,7 @@
+*{
+  overflow-x: hidden;
+}
+
 .Home {
   text-align: center;
 }
@@ -120,6 +124,18 @@ li a {
 
 .Home-link {
   color: #61dafb;
+}
+
+.ApartmentsWebsite, #site{
+  width: 100%;
+  height: 90%;
+}
+
+#site{
+  display: block;
+  width: 100%;
+  height: 1000px;
+  background: mediumpurple;
 }
 
 @keyframes swing {

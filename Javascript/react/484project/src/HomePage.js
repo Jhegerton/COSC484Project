@@ -22,7 +22,7 @@ export default function HomePage(){
         <li><a href={'./Login'}>Login</a></li>
         <li> <a href= './About'>About Us</a></li>
         <li> <a href= './ConfirmRoommateQuiz'>Roommate Quiz</a></li>
-        <li> <a href= './apartments'>Available Apartments</a></li>
+        <li> <a href= './Apartments'>Available Apartments</a></li>
     </ul>
 </div>
      <img src = {logo} id = 'logo' alt = 'keys_logo' className = "image1"/>
