@@ -29,7 +29,9 @@ export default function Apartments(){
                         <li><h4>Click Me!</h4></li>
                     </ul>
                 </div>
+                <div className={"Sites"}>
                 {isOnCampus? offCampus : onCampus}
+                </div>
                 </body>
             </div>
         );

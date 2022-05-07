@@ -128,15 +128,15 @@ li a {
   color: #61dafb;
 }
 
-.ApartmentsWebsite, #site{
+.ApartmentsWebsite .Sites{
   width: 100%;
   height: 90%;
 }
-.Apartments, #logo {
+.ApartmentsWebsite .image1 {
   width: 75px;
   height:75px;
 }
-.Apartments, .links {
+.ApartmentsWebsite .links {
 
   height: 130px;
 }
