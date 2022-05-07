@@ -1,7 +1,7 @@
-*{
+* ::-webkit-scrollbar{
   overflow-x: hidden;
+  display: none;
 }
-
 .Home {
   text-align: center;
 }
@@ -88,6 +88,15 @@ p{
   min-height: 20vh;
   color: white;
 }
+
+#sign-up-link{
+  text-decoration: none;
+  color: white;
+}
+#back-to-login{
+  text-decoration: none;
+  color: white;
+}
 .Links {
   display: flex;
   flex-direction: column;
@@ -127,18 +136,21 @@ li a {
 .Home-link {
   color: #61dafb;
 }
+.ApartmentsWebsite{
+  overflow-y: hidden;
 
+}
 .ApartmentsWebsite .Sites{
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 .ApartmentsWebsite .image1 {
   width: 75px;
   height:75px;
 }
 .ApartmentsWebsite .links {
-
   height: 130px;
+  overflow-y: hidden;
 }
 
 #site{

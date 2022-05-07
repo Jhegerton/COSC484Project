@@ -26,7 +26,7 @@ export default function Apartments(){
                         <li> <a href= './ConfirmRoommateQuiz'>Roommate Quiz</a></li>
                         <li> <a href={'./Apartments'}> Available Apartments </a></li>
                         <li><Link to={""} onClick={() =>{setOnCampus(!isOnCampus)}}><img src={logo} id='logo' alt='keys_logo' className ="image1"/></Link></li>
-                        <li><h4>Click Me!</h4></li>
+                        <li><h4>&lt;&lt;--Click Me!</h4></li>
                     </ul>
                 </div>
                 <div className={"Sites"}>

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from 'react-helmet';
@@ -34,10 +35,8 @@ export default function Login(){
                         <input type={'text'} id={'username'} name ={'username'} required/><br/>
                         <label htmlFor={'password'}>Password</label><br/>
                         <input type={'password'} id={'password'} name ={'password'} required/><br/>
-
-
             <p>Don't Have an Account?</p>
-            <p>Sign Up <a href = {'./SignUp'}>Here</a></p>
+            <Link to={'../signup'} id={'sign-up-link'}><h5>&gt;&gt;Sign Up Here&lt;&lt;</h5></Link>
             </body>
             <footer className={"Footer"}>
 
