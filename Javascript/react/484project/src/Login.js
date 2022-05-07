@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from 'react-helmet';
@@ -27,17 +28,15 @@ export default function Login(){
                     <li> <a href= './apartments'>Available Apartments</a></li>
                 </ul>
             </div>
-                <img src={logo} className="Site-logo" alt="logo" />
+            <a href={'./'}><img src={logo} className="Site-logo" alt="logo" /></a>
                 <h1>Living Spaces</h1>
                 <h3>Login Page</h3>
-                        <label for={'username'}>Username</label><br/>
+                        <label htmlFor={'username'}>Username</label><br/>
                         <input type={'text'} id={'username'} name ={'username'} required/><br/>
-                        <label for={'password'}>Password</label><br/>
+                        <label htmlFor={'password'}>Password</label><br/>
                         <input type={'password'} id={'password'} name ={'password'} required/><br/>
-
-
             <p>Don't Have an Account?</p>
-            <p>Sign Up <a href = {'./SignUp'}>Here</a></p>
+            <Link to={'../signup'} id={'sign-up-link'}><h5>&gt;&gt;Sign Up Here&lt;&lt;</h5></Link>
             </body>
             <footer className={"Footer"}>
 

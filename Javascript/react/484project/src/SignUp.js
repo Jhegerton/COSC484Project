@@ -2,6 +2,7 @@ import React from 'react';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from 'react-helmet';
+import {Link} from "react-router-dom";
 
 export default function SignUp(){
     return(
@@ -41,7 +42,7 @@ export default function SignUp(){
             <input type={'text'} id={'username'} name={'username'} required/><br/>
                 <input type={'submit'} value = 'Sign Up'/><br/>
             </form>
-            <a href={'./Login'}>Back</a>
+            <Link to={'../Login'} id={'back-to-login'}><h5>&gt;&gt;Back&lt;&lt;</h5></Link>
             </body>
             <footer className={"Footer"}>
 

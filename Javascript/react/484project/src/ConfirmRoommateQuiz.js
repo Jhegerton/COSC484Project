@@ -8,7 +8,6 @@ return(
 
     <div className ="ConfirmRoommateQuiz">
     <Helmet>
-        <meta charset="UTF-8"/>
         <title> ConfirmRoommateQuiz </title>
         <link rel="stylesheet" type="text/css" href="site.css"/>
     </Helmet>
@@ -23,14 +22,14 @@ return(
             <li> <a href= './apartments'>Available Apartments</a></li>
         </ul>
     </div>
-    <img src={logo} id='logo' alt='keys_logo' className ="image1"/>
+    <a href={'./'}><img src={logo} id='logo' alt='keys_logo' className ="image1"/></a>
 
         <h1> Living Spaces </h1>
 
         <p> Here is the Roommate quiz to find you roommates that fit your lifestyle </p>
         <p> Once the quiz starts you can not exit until the quiz is complete or your progress will be lost </p>
 
-    <form id={'login'} method={'GET'} action={'http://localhost:3000/RoommateQuiz'}>
+    <form id={'login'} method={'GET'} action={'./RoommateQuiz'}>
         <input type={'submit'} value = 'Start'/>
     </form>
 
