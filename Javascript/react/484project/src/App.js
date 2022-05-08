@@ -3,6 +3,7 @@ import {
   Route,
   Routes,
 } from 'react-router-dom';
+import './Site.css';
 import Account from './Account';
 import Login from './Login';
 import SignUp from "./SignUp";
@@ -13,6 +14,7 @@ import RoommateQuiz from "./RoommateQuiz";
 import QuizCompleted from "./QuizCompleted";
 import ConfirmRoommateQuiz from "./ConfirmRoommateQuiz";
 import Apartments from "./Apartments";
+
 
 
 function App() {
