@@ -39,14 +39,15 @@ app.post("/account", (req, res) => {
     console.log("Username = " + username + " Password = " + password + " Verify Password " + password2);
     if (password === password2) {
         let data = {
-            "username": username
+            "username": username,
+            "password": password
         }
         mongoCl.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true,}, function(err, client) {
             var db = client.db("484-Project-Cluster"); 
             if (err) {
                 console.log(err);
             } else {
-                 db.collection("accounts").findOne(data, function(err, result){
+                 db.collection("accounts").findOne({"username": username}, function(err, result){
                     if (err){
                         throw err;
                     }

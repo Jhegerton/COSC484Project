@@ -2,6 +2,8 @@ import React from 'react';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from 'react-helmet';
+import { useNavigate } from "react-router-dom";
+
 
 export default function Login(){
     return(
@@ -49,5 +51,7 @@ export default function Login(){
 async function funcLogin(url){
     const response = await fetch(url);
     var data = await response.json();
-    return data.value;
+    if (data.value){
+        alert("You are logged in");
+    }
 }

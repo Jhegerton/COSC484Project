@@ -2,6 +2,8 @@ import React from 'react';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from "react-helmet";
+import { useNavigate } from "react-router-dom";
+
 
 export default function Account(){
     return(
@@ -49,6 +51,9 @@ export default function Account(){
 async function funcName(url){
     const response = await fetch(url);
     var data = await response.json();
+    if (data.value){
+        alert("Your account is set up");
+    }
     return data.value;
 }
 
