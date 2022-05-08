@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import logo from "./images/keys.png";
 import mh  from "./images/Millennium_Hall.jpeg";
 import uv from "./images/UV.jpeg";
@@ -17,8 +17,6 @@ export default function HomePage(){
          <div className = "HomePage">
      <Helmet>
           <title> Living Spaces</title>
-          <link rel = "stylesheet" type = "text/css" href="site.css"/>
-     
      </Helmet>
 <body className="Body">
 <div className = {'links'}>
@@ -53,7 +51,9 @@ export default function HomePage(){
      <div className="row">
         <div className ="column colleft">
             <h5>Reviews</h5>
-
+            {Jackie}
+            {Brian}
+            {Josh}
         </div>
         <div className ="column colmiddle">
             <h5>Sign up for our Newsletter</h5>
