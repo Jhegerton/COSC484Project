@@ -158,6 +158,25 @@ li a {
   height: 130px;
   overflow-y: hidden;
 }
+.each-slide > div{
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content:  center;
+  background-size: contain;
+
+}
+.each-slide span{
+  color: white;
+  font-size: 10em;
+}
+/*.each-slide > div {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  background-size: cover;*/
+/*  height: 300px;*/
+/*}*/
 
 #site{
   display: block;
