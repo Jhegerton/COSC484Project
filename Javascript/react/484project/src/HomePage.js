@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from "./images/keys.png";
 import mh  from "./images/Millennium_Hall.jpeg";
 import uv from "./images/UV.jpeg";
@@ -9,6 +9,9 @@ export default function HomePage(){
     const univVillage =('https://www.americancampus.com/student-apartments/md/towson/university-village-towson?utm_source=&utm_medium=&utm_campaign=&utm_content=');
     const millHall =('https://millenniumhall.com/');
     const theYork =('https://theyorktowson.com/');
+    const Jackie =(<p>Jackie: "They were able to find me a great apartment at a great price"</p>);
+    const Brian =(<p>Brian: "They found me great roommates"</p>);
+    const Josh =(<p>Josh: "They got me a great apartment at a great price"</p>)
 
      return(
          <div className = "HomePage">
@@ -50,9 +53,7 @@ export default function HomePage(){
      <div className="row">
         <div className ="column colleft">
             <h5>Reviews</h5>
-            <p>Jackie: "They were able to find me a great apartment at a great price"</p>
-            <p>Brain: "They found me great roommates"</p>
-            <p>Josh: "They got me a great apartment at a great price"</p>
+
         </div>
         <div className ="column colmiddle">
             <h5>Sign up for our Newsletter</h5>

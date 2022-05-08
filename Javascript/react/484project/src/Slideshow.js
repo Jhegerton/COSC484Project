@@ -5,7 +5,7 @@ import './Site.css';
 
 const slidePictures = [
     {
-        url : './images/Altus.jpg',
+        url: './images/Altus.jpg',
         caption: 'Altus Apartments'
     },
     {
@@ -21,7 +21,7 @@ const slidePictures = [
         caption: 'Towson Row'
     },
     {
-        url:'./images/Promenade.jpg',
+        url: './images/Promenade.jpg',
         caption: "Towson Promenade"
     },
 ];
