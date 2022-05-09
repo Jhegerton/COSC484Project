@@ -14,6 +14,7 @@ import RoommateQuiz from "./RoommateQuiz";
 import QuizCompleted from "./QuizCompleted";
 import ConfirmRoommateQuiz from "./ConfirmRoommateQuiz";
 import Apartments from "./Apartments";
+import About from "./About";
 
 
 
@@ -39,6 +40,8 @@ function App() {
             <Route path = {'/quizcompleted/*'} element = {<QuizCompleted />}>
             </Route>
             <Route path ={'/apartments/*'} element={<Apartments />}>
+            </Route>
+            <Route path={'/About/*'} element={<About />}>
             </Route>
             <Route path ={'*'} element={<NotFound />}>
             </Route>
