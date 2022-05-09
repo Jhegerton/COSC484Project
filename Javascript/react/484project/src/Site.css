@@ -52,6 +52,13 @@ h1 {
   text-align: center;
 }
 
+#myForm{
+  background-color: rebeccapurple;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+
 .Body {
   background-color: mediumpurple;
   min-height: 80vh;
