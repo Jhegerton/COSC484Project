@@ -30,7 +30,7 @@ export default function SignUp(){
             <h1>Living Spaces</h1>
             <h3>Sign Up Page</h3>
 
-            <form id={'signup'} method={'GET'} action={'http:localhost:3000/'}>
+            <form id={'signup'}>
 
             <label htmlFor={'username'}>Username</label><br/>
             <input type={'text'} id={'username'} name={'username'} required/><br/>
