@@ -54,7 +54,7 @@ export default function Account(){
                 <h1>Living Spaces</h1>
                 <h3>Account Page</h3>
                 <div className="data">{data ? <p>{data}</p> : null}</div>
-                <form id={'account'} onSubmit={handleSubmit}>
+                <form id={'myForm'} onSubmit={handleSubmit}>
                         <label for={'username'}>Username</label><br/>
                         <input type={'text'} id={'username'} name ={'username'} value={username} onChange={(e) => setUsername(e.target.value)} required/><br/>
                         <label for={'password'}>Password</label><br/>
