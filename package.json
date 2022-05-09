@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "react-beforeunload": "^2.5.3"
+  }
+}

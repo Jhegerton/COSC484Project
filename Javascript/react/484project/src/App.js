@@ -3,21 +3,26 @@ import {
   Route,
   Routes,
 } from 'react-router-dom';
+import './Site.css';
 import Account from './Account';
 import Login from './Login';
-import Home from "./Home";
 import SignUp from "./SignUp";
 import NotFound from "./NotFound";
 import Mongo from "./Mongo";
+import HomePage from "./HomePage";
+import RoommateQuiz from "./RoommateQuiz";
+import QuizCompleted from "./QuizCompleted";
+import ConfirmRoommateQuiz from "./ConfirmRoommateQuiz";
+import Apartments from "./Apartments";
+
 
 
 function App() {
   return (
     <div className={'router'}>
-
         <Router>
           <Routes>
-            <Route path={"/"} element={<Home />}>
+            <Route path={"/"} element={<HomePage />}>
             </Route>
             <Route path={"/login/*"} element={<Login />}>
             </Route>
@@ -27,13 +32,19 @@ function App() {
             </Route>
             <Route path ={'/mongo/*'} element={<Mongo />}>
             </Route>
-            <Route path={'*'} element={<NotFound />}>
+            <Route path ={'/confirmroommatequiz/*'} element={<ConfirmRoommateQuiz />}>
             </Route>
-            </Routes>
+            <Route path ={'/roommatequiz/*'} element = {<RoommateQuiz />}>
+            </Route>
+            <Route path = {'/quizcompleted/*'} element = {<QuizCompleted />}>
+            </Route>
+            <Route path ={'/apartments/*'} element={<Apartments />}>
+            </Route>
+            <Route path ={'*'} element={<NotFound />}>
+            </Route>
+          </Routes>
         </Router>
-
     </div>
-
   );
 }
 

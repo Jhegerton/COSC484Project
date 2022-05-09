@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import logo from "./images/keys.png";
 import './Site.css';
 import Helmet from 'react-helmet';
@@ -48,7 +49,16 @@ export default function Login(){
             </Helmet>
 
             <body className="Body">
-                <img src={logo} className="Site-logo" alt="logo" />
+            <div className = {'links'}>
+                <ul>
+                    <li> <a href= './'>Home</a></li>
+                    <li><a href={'./Login'}>Login</a></li>
+                    <li> <a href= './About'>About Us</a></li>
+                    <li> <a href= './ConfirmRoommateQuiz'>Roommate Quiz</a></li>
+                    <li> <a href= './apartments'>Available Apartments</a></li>
+                </ul>
+            </div>
+            <a href={'./'}><img src={logo} className="Site-logo" alt="logo" /></a>
                 <h1>Living Spaces</h1>
                 <h3>Login Page</h3>
                 <div className="data">{data ? <p>{data}</p> : null}</div>
@@ -59,18 +69,11 @@ export default function Login(){
                         <input type={'password'} id={'password'} name ={'password'} value={password} onChange={(e) => setPassword(e.target.value)} required/><br/>
                         <input type={'submit'}/>
                 </form>
+            <p>Don't Have an Account?</p>
+            <Link to={'../signup'} id={'sign-up-link'}><h5>&gt;&gt;Sign Up Here&lt;&lt;</h5></Link>
             </body>
             <footer className={"Footer"}>
-                <div className={'Links'}>
-                    <ul>
-                        <li>
-                            <a href={'./Account'}>Account</a>
-                        </li>
-                        <li>
-                            <a href={'./'}>Home</a>
-                        </li>
-                    </ul>
-                </div>
+
             </footer>
         </div>
 

@@ -50,6 +50,16 @@ export default function Account(){
 
             </Helmet>
             <body className="Body">
+
+            <div className = {'links'}>
+            <ul>
+                <li> <a href= './HomePage'>Home</a></li>
+                <li><a href={'./Login'}>Login</a></li>
+                <li> <a href= './About'>About Us</a></li>
+                <li> <a href= './ConfirmRoommateQuiz'>Roommate Quiz</a></li>
+                <li> <a href= './apartments'>Available Apartments</a></li>
+            </ul>
+            </div>
                 <img src={logo} className="Site-logo" alt="logo" />
                 <h1>Living Spaces</h1>
                 <h3>Account Page</h3>
@@ -65,19 +75,11 @@ export default function Account(){
                 </form>
             </body>
             <footer className={"Footer"}>
-                <div className={'Links'}>
-                    <ul>
-                        <li>
-                            <a href={'./Login'}>Login</a>
-                        </li>
-                        <li>
-                            <a href={'./'}>Home</a>
-                        </li>
-                    </ul>
-                </div>
+
             </footer>
         </div>
     );
 
 }
+
 
