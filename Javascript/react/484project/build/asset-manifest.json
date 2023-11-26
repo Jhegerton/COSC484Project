@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acb0adb2.css",
+    "main.js": "/static/js/main.21cbe990.js",
+    "static/js/787.c1a7ba60.chunk.js": "/static/js/787.c1a7ba60.chunk.js",
+    "static/media/UV.jpeg": "/static/media/UV.c918715b72ced74b483e.jpeg",
+    "static/media/Millennium_Hall.jpeg": "/static/media/Millennium_Hall.e2c030889e1b994a119a.jpeg",
+    "static/media/the_york.jpeg": "/static/media/the_york.fe3bdf2c52c48afbc42f.jpeg",
+    "static/media/keys.png": "/static/media/keys.0793fb1977ffb73d7623.png",
+    "index.html": "/index.html",
+    "main.acb0adb2.css.map": "/static/css/main.acb0adb2.css.map",
+    "main.21cbe990.js.map": "/static/js/main.21cbe990.js.map",
+    "787.c1a7ba60.chunk.js.map": "/static/js/787.c1a7ba60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acb0adb2.css",
+    "static/js/main.21cbe990.js"
+  ]
+}
